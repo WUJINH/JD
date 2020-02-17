@@ -1,0 +1,213 @@
+.header-cover {
+	min-width: 1190px;
+	background-color: #fff;
+}
+
+.header {
+	position: relative;
+	/* 相对定位 */
+	height: 141px;
+}
+
+.header .logo-wrap {
+	position: absolute;
+	/* 绝对定位 */
+	left: 0;
+	/* left的值一定等于0 */
+	top: -31px;
+	width: 190px;
+	height: 171px;
+	border-bottom: 1px solid #ededed;
+	background: #fff;
+	overflow: hidden;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.header .logo-wrap .logo-bd {
+	display: block;
+	width: 190px;
+	padding-top: 171px;
+	background: url('img/logo.png') no-repeat 0 45px;
+	margin-bottom: 40px;
+}
+
+.header .search-wrap {
+	position: relative;
+	height: 60px;
+	z-index: 0;
+	/* background-color: #ddd; */
+}
+
+.header .search-wrap .search-form {
+	position: absolute;
+	left: 320px;
+	top: 25px;
+	width: 550px;
+	height: 35px;
+	background-color: #fff;
+	border: 1px solid red;
+}
+
+.header .search-wrap .search-form .fa-camera {
+	position: absolute;
+	top: 9px;
+	right: 65px;
+	font-size: 18px;
+	color: #666;
+}
+
+.header .search-wrap .search-form .input-wrap {
+	width: 450px;
+	height: 34px;
+	border-bottom: 1px solid red;
+}
+
+.header .search-wrap .search-form .input-wrap input {
+	width: 100%;
+	height: 100%;
+	padding: 4px 44px 4px 4px;
+	box-sizing: border-box;
+	text-indent: 5px;
+	font-size: 14px;
+}
+
+.header .search-wrap .search-form .button-wrap {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 50px;
+	height: 35px;
+}
+
+.header .search-wrap .search-form .button-wrap button {
+	width: 100%;
+	height: 100%;
+	background-color: #f10215;
+	color: #fff;
+	cursor: pointer;
+}
+
+.header .search-wrap .search-form .button-wrap button .fa {
+	font-size: 19px;
+}
+
+.header .search-wrap .settle-up {
+	position: absolute;
+	top: 25px;
+	right: 99px;
+	width: 190px;
+	height: 35px;
+	background-color: #fff;
+	border: 1px solid #e3e4e5;
+	text-align: center;
+	line-height: 35px;
+	color: #f10215;
+}
+
+.header .search-wrap .settle-up .fa {
+	font-size: 18px;
+	color: #f10215;
+}
+
+.header .search-wrap .settle-up .badge {
+	display: block;
+	position: absolute;
+	top: 6px;
+	right: 38px;
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	background-color: #f10215;
+	line-height: 13px;
+	font-size: 12px;
+	color: #fff;
+	text-align: center;
+}
+
+.header .keywords-wrap {
+	position: absolute;
+	top: 65px;
+	left: 320px;
+	width: 550px;
+	height: 20px;
+	/* background-color:#ddd ; */
+	line-height: 20px;
+}
+
+.header .keywords-wrap .keyword {
+	font-size: 12px;
+	color: #999;
+	margin-right: 10px;
+}
+
+.header .keywords-wrap .keyword:hover,
+.header .keywords-wrap .keyword.hl {
+	color: #f10215;
+	/* 京东红 */
+}
+
+.header .keywords-wrap .keyword.block {
+	display: inline-block;
+	width: 65px;
+	height: 20px;
+	line-height: 20px;
+	white-space: nowrap;
+	/* 设置不换行 */
+	overflow: hidden;
+	/* 隐藏超出部分 */
+	text-overflow: ellipsis;
+	/* 让它有省略号 */
+	vertical-align: middle;
+}
+
+.header .main-nav {
+	position: absolute;
+	top: 90px;
+	left: 200px;
+	width: 790px;
+	heigh: 60px;
+	padding-top: 20px;
+	/* background-color:#ddd ; */
+}
+
+.header .main-nav .nav-list {
+	float: left;
+}
+
+.header .main-nav .nav-pipe {
+	float: left;
+	width: 1px;
+	height: 15px;
+	background-color: #ccc;
+	margin-top: 4px;
+}
+
+.header .main-nav .nav-list .nav-item {
+	float: left;
+	height: 40px;
+	margin: 0 11px;
+	font-size: 15px;
+}
+
+.header .main-nav .nav-list .nav-item .nav-link {
+	color: #333;
+}
+
+.header .main-nav .nav-list .nav-item .nav-link:hover {
+	color: #f10215;
+}
+
+.header .adv {
+	position: absolute;
+	bottom: 0;
+	right: 10px;
+	width: 190px;
+	height: 48px;
+}
+
+.header .adv .adv-link {
+	display: block;
+	width: 190px;
+	height: 40px;
+	background: url('img/adv.png') no-repeat center center/150px 90px;
+}

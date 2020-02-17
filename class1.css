@@ -1,0 +1,211 @@
+body{
+	background-color: #efefef;
+}
+
+.site-nav-cover {
+	min-width: 1190px;
+	width: 100%;
+	background-color: #e3e4e5;
+	border: 1px solid #ddd;
+	/* 边框因为收进去了,所以要多给一个像素 */
+	height: 30px;
+}
+
+.site-nav {
+	/* background-color: skyblue; */
+	height: 30px;
+	color: #999;
+	font-size: 12px;
+}
+
+.nav-fl {
+	float: left;
+	/* background-color: yellow; */
+}
+
+.site-nav .nav-fl .nav-item {
+	width: 58px;
+	height: 30px;
+	margin-left: 200px;
+	line-height: 30px;
+
+}
+
+.site-nav .nav-fl .nav-item .fa {
+	font-size: 15px;
+	color: #f10215;
+	vertical-align: -1px;
+	margin-right: 3px;
+}
+
+.site-nav .nav-fr {
+	float: right;
+}
+
+.site-nav .nav-fr .nav-item {
+	float: left;
+	height: 30px;
+	line-height: 30px;
+}
+
+.site-nav .nav-fr .nav-item .jingodong{
+	positioin: relative;
+}
+.site-nav .nav-fr .nav-item .nav-pop:hover .qr-pop{
+	display: block;
+}
+
+.site-nav .nav-fr .nav-item .qr-static {
+	/* 元素边框 */
+	position: absolute;
+	top: 30px;
+	left: -2px;
+	width: 66px;
+	height: 66px;
+	padding: 4px 3px;
+	border: 1px solid #ccc;
+	background: url('img/1.png') no-repeat center center/60px 60px;
+}
+.site-nav .nav-fr .nav-item .qr-static::before,
+.site-nav .nav-fr .nav-item .qr-pop::before{
+	content:"";
+	display:block;
+	position: absolute;
+	top:-9px;
+	left:50%;
+	margin-left:-5px;
+	width:0;
+	height:0;
+	border-width:5px;
+	border-style:solid;
+	border-color:#e4e4e4 #e4e4e4 #f6f6f6;
+}
+.site-nav .nav-fr .nav-item .qr-pop::before{
+	left:84%;
+}
+.site-nav .nav-fr .nav-item .qr-pop{
+	display: none;
+	position:absolute;
+	z-index: 1;
+	top:30px;
+	right:-2px;
+	width:192px;
+	height:310px;
+	background-color: white;
+	border:1px solid #cfcfcf;
+	border-bottom:3px solid #60575a;
+}
+.site-nav .nav-fr .nav-item .qr-pop .qr-list{
+	height: 100%;
+}
+.site-nav .nav-fr .nav-item .qr-pop .qr-list .qr-item{
+	height:104px;
+	margin-top:-1px;
+	padding: 15px 0;
+	border-top:1px solid #e7e7e7;
+	
+}
+.site-nav .nav-fr .nav-item .qr-pop .qr-list .qr-item .qr-img{
+	float: left;
+	width:76px;
+	height: 76px;
+	padding: 3px;	
+	margin-left: 5px;
+	border:1px solid #ccc;
+	background-color: #f7f7f7;
+}
+.site-nav .nav-fr .nav-item .qr-pop .qr-list .qr-item .qr-img img{
+	width: 100%;
+}
+.site-nav .nav-fr .nav-item .qr-pop .qr-list .qr-item  .qr-info{
+	float: left;
+	width:94px;
+	height:70px;
+	margin-left: 5px;
+}
+.site-nav .nav-fr .nav-item .qr-pop .qr-list .qr-item  .qr-info .qr-tt{
+	line-height: 17px;
+	font-size: 12px;
+	color:#666;
+	font-weight: bold;
+}
+.site-nav .nav-fr .nav-item .qr-pop .qr-list .qr-item  .qr-info .qr-sub-tt{
+	margin:3px 0;
+	line-height: 14px;
+	color: #f10215;
+}
+.site-nav .nav-fr .nav-item .qr-pop .qr-list .qr-item  .qr-info .qr-mobiles .mobile-icon{
+	float: left;
+	line-height: 25px;
+	width: 25px;
+	height: 0;
+	margin-left: 2px;
+	padding-top:25px;
+	overflow: hidden;
+	background: url('img/mobiles.png') no-repeat 0 0/25px 77px;
+}
+.site-nav .nav-fr .nav-item .qr-pop .qr-list .qr-item  .qr-info .qr-mobiles .mobile-icon:nth-child(1){
+	background-position: 0 0;
+}
+.site-nav .nav-fr .nav-item .qr-pop .qr-list .qr-item  .qr-info .qr-mobiles .mobile-icon:nth-child(2){
+	background-position: 0 -26px;
+}
+.site-nav .nav-fr .nav-item .qr-pop .qr-list .qr-item  .qr-info .qr-mobiles .mobile-icon:nth-child(3){
+	background-position: 0 -51px;
+}
+
+.site-nav .nav-fr .nav-item.nav-drop-dowm {
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+}
+
+.site-nav .nav-fr .nav-item.nav-drop-dowm:hover {
+	background-color: #fff;
+	border-color: #ddd;
+}
+
+.site-nav .nav-fr .nav-item a {
+	color: #999;
+}
+
+.site-nav .nav-fr .nav-item .nav-link:hover {
+	color: #f10215;
+}
+
+.site-nav .nav-fr .nav-item.nav-login {
+	margin-right: 8px;
+}
+
+.site-nav .nav-fr .nav-item .hl {
+	color: #f10215;
+	margin-left: 8px;
+}
+
+.site-nav .nav-fr .nav-item.item-pipe {
+	width: 1px;
+	height: 12px;
+	margin: 9px 5px 0;
+	background-color: #ccc;
+}
+
+.site-nav .nav-fr .nav-item.nav-common .link-wrap {
+	padding: 0 7px;
+}
+
+
+
+
+
+/* 
+.sales .sales-1{
+	width: 190px;
+	height: 150px;
+	background: purple;
+}
+.sales .sales-2{
+	width: 190px;
+	height: 150px;
+	margin-top: 10px;
+	background: purple;
+}
+ */

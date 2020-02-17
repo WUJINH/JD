@@ -1,0 +1,364 @@
+.ranking-cover .show-area {
+	height: 340px;
+	margin-bottom: 20px;
+}
+
+.show-area .box {
+	float: left;
+	width: 590px;
+	height: 100%;
+	background-color: #fff;
+	margin-right: 5px;
+}
+
+.show-area .box.last {
+	margin-right: 0;
+	width: 580px;
+}
+
+.show-area .box .box-hd {
+	height: 60px;
+	padding: 0 20px;
+}
+
+.show-area .box .box-hd .hd-wrap {
+	display: inline-block;
+}
+
+.show-area .box .box-hd .hd-lk {
+	display: inline-block;
+	position: relative;
+	height: 32px;
+	margin: 12px 0 0;
+}
+
+.show-area .box .box-hd .hd-tt {
+	float: left;
+	font-weight: 700;
+	font-size: 24px;
+	color: #333;
+	line-height: 32px;
+}
+
+.show-area .box-hd .hd-arrow {
+	background-image: url(img/icon/icon1.png);
+	background-position: -16px 0;
+	width: 16px;
+	height: 16px;
+	position: relative;
+	float: left;
+	top: 9px;
+	left: 10px;
+}
+
+.show-area .box .box-hd .hd-arrow:hover {
+	background-position: 0 0;
+}
+
+.show-area .box .box-hd .list {
+	float: right;
+}
+
+.show-area .box .box-hd .list .item {
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	padding: 10px 0;
+	font-size: 14px;
+}
+
+.show-area .box .box-hd .list .item .item-lk {
+	display: inline-block;
+	max-width: 70px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	color: #999;
+	padding: 0 5px;
+	margin: 0 8px;
+}
+
+.show-area .box .box-hd .list .item .item-lk:hover {
+	color: #e1251b;
+	font-weight: 700;
+}
+
+.show-area .box .box-bd {
+	overflow: hidden;
+}
+
+.show-area .box .box-bd .rank-left {
+	float: left;
+	width: 270px;
+	margin-left: 15px;
+	margin-right: 5px;
+	position: relative;
+}
+
+.show-area .box .box-bd .rank-left .top {
+	background: rgba(109, 126, 146, .05);
+	position: relative;
+	width: 270px;
+	height: 180px;
+}
+
+.show-area .box .box-bd .rank-left .top .top-text {
+	display: block;
+	position: relative;
+	width: 210px;
+	height: 40px;
+	max-height: 40px;
+	left: 0;
+	top: 0;
+	margin: 8px auto 0;
+	line-height: 20px;
+	font-size: 14px;
+	overflow: hidden;
+	color: #333;
+	z-index: 2;
+}
+
+.show-area .box .box-bd .rank-left .bottom {
+	margin-top: 6px;
+	width: 272px;
+	height: 84px;
+
+}
+
+.show-area .box .box-bd .rank-left .bottom .btn-lk {
+	display: inline-block;
+	text-align: center;
+
+	width: 132px;
+	height: 40px;
+	line-height: 40px;
+	margin: 0 2px 2px 0;
+	background-color: rgba(109, 126, 146, .05);
+	line-height: 40px;
+	text-align: center;
+	font-size: 15px;
+	color: #333;
+	text-indent: 10px;
+}
+
+.show-area .box .box-bd .rank-right {
+	padding: 0 5px;
+	float: left;
+	width: 270px;
+}
+
+.show-area .box .box-bd .rank-right a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.show-area .box .box-bd .rank-right .item {
+	margin-top: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 270px;
+	height: 70px;
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+
+
+.show-area .box .box-bd .rank-right .item .top-wrap {
+	width: 30px;
+	margin-right: 15px;
+}
+
+.show-area .box .box-bd .rank-right .item .img-wrap {
+	margin-right: 10px;
+	width: 70px;
+	height: 70px;
+}
+
+.show-area .box .box-bd .rank-right .item .name {
+	width: 150px;
+	max-height: 32px;
+	line-height: 16px;
+	font-size: 12px;
+	color: #333;
+	overflow: hidden;
+}
+
+.show-area .box .box-bd .rank-right .item .top {
+	width: 30px;
+	height: 40px;
+	background-color: #F0AB82;
+	color: #fff;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.show-area .box .box-bd .rank-right .item .top .t1 {
+	font-size: 13.5px;
+	font-weight: 700;
+
+}
+
+.show-area .box .box-bd .rank-right .item .top .t2 {
+	font-size: 17px;
+	font-weight: 700;
+}
+
+.show-area .box.last {
+	float: right;
+	position: relative;
+}
+
+.show-area .box.last .box-bd {
+	width: 100%;
+	height: 272px;
+	padding: 0 15px 0 15px;
+}
+
+.show-area .box.last .box-bd .left {
+	float: left;
+	width: 270px;
+	height: 265px;
+	/* height: 265px; */
+	margin-right: 15px;
+	background: linear-gradient(180deg, rgba(188, 163, 141, .05), rgba(74, 55, 45, .05));
+	text-align: center;
+}
+
+.show-area .box.last .box-bd .left .title {
+	position: relative;
+	color: #333;
+	font-weight: 700;
+	font-size: 16px;
+	text-align: center;
+	z-index: 1;
+	margin-top: 6px;
+}
+
+.show-area .box.last .box-bd .left .time-wrap {
+	position: relative;
+	text-align: center;
+	font-size: 12px;
+	color: #666;
+	margin-bottom: 13px;
+	margin-top: 1px;
+	z-index: 1;
+}
+
+.show-area .box.last .box-bd .left .time-wrap .title2 {
+	padding-right: 5px;
+	position: relative;
+}
+
+.show-area .box.last .box-bd .left .time-wrap .time {
+	padding-left: 5px;
+	position: relative;
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.show-area .box.last .box-bd .left .time-wrap .remainDay {
+	margin-right: 4px;
+}
+
+.show-area .box.last .box-bd .left .img1 {
+	width: 70px;
+	height: 35px;
+	margin: 15px 100px 0;
+}
+
+.show-area .box.last .box-bd .left .img2 {
+	width: 130px;
+	height: 130px;
+	padding: 0 70px;
+}
+
+.show-area .box.last .box-bd .right {
+	position: absolute;
+	right: 15px;
+	bottom: 10px;
+	float: left;
+	width: 265px;
+	height: 312px;
+
+
+}
+
+.show-area .box.last .box-bd .right .item {
+	display: inline-block;
+	width: 130px;
+	height: 72px;
+	padding-top: 14px;
+	padding-bottom: 14px;
+
+	text-align: center;
+}
+
+.show-area .box.last .box-bd .right .item .item-img {
+	width: 100px;
+	height: 50px;
+}
+
+/* 
+.ranking-cover .show-area {
+	height: 480px;
+}
+.show-area .box {
+	float: left;
+	width: 390px;
+	height: 450px;
+	margin: 0 10px 30px 0;
+	background: #fff;
+	position: relative;
+}
+.show-area .box .box-hd{
+	height:60px;
+	padding:0 20px;
+}
+.show-area .box .box-hd .hd-lk{
+	display: inline-block;
+	height:40px;
+	margin-top: 8px;
+}
+.show-area .box .box-hd .hd-lk .hd-tt{
+	display: inline-block;
+	font-size:22px;
+	line-height: 44px;
+	color:#222;
+	
+}
+
+.show-area .box:last-child,
+.show-area .box.strange-last {
+	margin-right: 0;
+}
+
+.show-area .box.strange-last {
+	background-color: transparent;
+}
+
+.show-area .box.strange-last::before {
+	content: "";
+	display: block;
+	width: 340px;
+	height: 420px;
+	;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	border: 5px solid #333;
+
+}
+
+.show-area .box.strange-last a {
+	display: block;
+	width: 340px;
+	height: 420px;
+	;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: purple;
+}
+ */
